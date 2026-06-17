@@ -23,10 +23,10 @@ const NUM_SLAVES       = 10;
 const MOTORS_PER_SLAVE = 5;
 
 const PATTERNS = [
-  { id: 1, label: 'Staircase Drop',    icon: <IconZap />,   grad: 'from-cyan-500 to-blue-600' },
-  { id: 2, label: 'Wave Cascade',      icon: <IconWaves />, grad: 'from-violet-500 to-purple-600' },
+  { id: 1, label: '3D Drop',    icon: <IconZap />,   grad: 'from-cyan-500 to-blue-600' },
+  { id: 2, label: 'Synchronized Drop',      icon: <IconWaves />, grad: 'from-violet-500 to-purple-600' },
   { id: 3, label: 'Alternating Pulse', icon: <IconGrid />,  grad: 'from-fuchsia-500 to-pink-600' },
-  { id: 4, label: 'Breathing Motion',  icon: <IconWind />,  grad: 'from-amber-500 to-orange-600' },
+  { id: 4, label: 'Wave Motion',  icon: <IconWind />,  grad: 'from-amber-500 to-orange-600' },
 ];
 
 const STATUS_MAP = {
